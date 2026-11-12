@@ -1,0 +1,48 @@
+{
+    "best_model": "Hist Gradient Boosting Regressor",
+    "all_benchmarks": [
+        {
+            "model": "Linear Regression (Baseline)",
+            "r2": 0.662191035889252,
+            "rmse": 0.6653329238065572,
+            "mae": 0.47920151529738797,
+            "rmse_dollars": 66533.29238065572,
+            "mae_dollars": 47920.151529738796
+        },
+        {
+            "model": "Ridge Regression",
+            "r2": 0.6621891556759651,
+            "rmse": 0.6653347753945783,
+            "mae": 0.47916974926278355,
+            "rmse_dollars": 66533.47753945783,
+            "mae_dollars": 47916.97492627835
+        },
+        {
+            "model": "Random Forest Regressor",
+            "r2": 0.8276592751743603,
+            "rmse": 0.47522292992664245,
+            "mae": 0.30507344157050287,
+            "rmse_dollars": 47522.29299266425,
+            "mae_dollars": 30507.344157050287
+        },
+        {
+            "model": "Hist Gradient Boosting Regressor",
+            "r2": 0.8502827988483075,
+            "rmse": 0.4429342666652431,
+            "mae": 0.2887326990173571,
+            "rmse_dollars": 44293.42666652431,
+            "mae_dollars": 28873.269901735708
+        }
+    ],
+    "input_features": [
+        "MedInc",
+        "HouseAge",
+        "AveRooms",
+        "AveBedrms",
+        "Population",
+        "AveOccup",
+        "Latitude",
+        "Longitude"
+    ],
+    "target_description": "Median house value (in $100,000s)"
+}
